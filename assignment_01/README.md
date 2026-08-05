@@ -80,20 +80,20 @@ count alongside the time.
 
 | Test | Size (M K N) | Simple Time (ms) | Blocking Time (ms) | Block Size | Status |
 |---|---|---|---|---|---|
-| gemm_test_01.txt | 2 3 2 | 0.0000203 | 0.0000495 | 32 | Pass |
-| gemm_test_02.txt | 3 5 4 | 0.0000677 | 0.0000676 | 32 | Pass |
-| gemm_test_03.txt | 6 4 6 | 0.000153 | 0.000151 | 32 | Pass |
+| gemm_test_01.txt | 2 3 2 | 0.0000108655 | 0.0000222658 | 32 | Pass |
+| gemm_test_02.txt | 3 5 4 |  0.0000549230 | 0.0000417680 | 32 | Pass |
+| gemm_test_03.txt | 6 4 6 | 0.0000603400 | 0.0000819760 | 32 | Pass |
 
 ## CSR Conversion Results
 
 | Test | V | E | Conversion Time (ms) | Status |
 |---|---|---|---|---|
-| graph_test_01.txt | 5 | 5 | 0.000168 (1M runs) | Pass |
-| graph_test_10.txt | 10 | 16 | 0.000198 (1M runs) | Pass |
-| graph_test_100.txt | 100 | 252 | 0.00101 (100K runs) | Pass |
-| graph_test_10000.txt | 10,000 | 30,297 | 0.339 (1000 runs) | Pass |
-| graph_test_50000.txt | 50,000 | 150,177 | 1.755 (100 runs) | Pass |
-| graph_test_100000.txt | 100,000 | 300,156 | 1.441 (100 runs) | Pass |
+| graph_test_01.txt | 5 | 5 | 0.000107 (1M runs) | Pass |
+| graph_test_10.txt | 10 | 16 | 0.000144 (1M runs) | Pass |
+| graph_test_100.txt | 100 | 252 | 0.000525 (100K runs) | Pass |
+| graph_test_10000.txt | 10,000 | 30,297 | 0.094660 (1000 runs) | Pass |
+| graph_test_50000.txt | 50,000 | 150,177 | 0.795720 (100 runs) | Pass |
+| graph_test_100000.txt | 100,000 | 300,156 | 1.399140 (100 runs) | Pass |
 
 
 ## Complexity
