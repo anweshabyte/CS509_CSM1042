@@ -23,10 +23,6 @@ Task: Individual
 - **Kruskal's Algorithm** — sorts all edges by weight, uses DSU (Disjoint Set Union) with path compression and union by rank to greedily pick edges without forming cycles
 - **Prim's Algorithm** — grows the MST one vertex at a time using a min-heap (priority queue), always picking the cheapest edge that connects a new vertex
 
-Both algorithms run on the same CSR graph input and must produce the same total MST weight.
-
----
-
 ---
 
 ## Files
