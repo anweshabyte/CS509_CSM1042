@@ -15,7 +15,6 @@ Task: Individual
 - OS: Windows 11
 - Compile flags: `-O2 -std=c++17`
 - Timing method: `std::chrono::steady_clock`, results in milliseconds
-
 ---
 
 ## Algorithms Implemented
@@ -25,7 +24,7 @@ Task: Individual
 
 ---
 
----
+
 
 ## Files
 
