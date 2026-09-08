@@ -87,9 +87,9 @@ MAX_ITERATIONS n
 
 | File                | Vertices | Edges   | Damping | Sum of Ranks | Iterations | Converged | Time       | Status |
 |---------------------|----------|---------|---------|--------------|------------|-----------|------------|--------|
-| pagerank_10.txt     | 10       | 20      | 0.85    | 1.000000     | 15         | true      | 0 ms       | Pass   |
-| pagerank_100.txt    | 100      | 200     | 0.85    | 1.000000     | 15         | true      | 0 ms       | Pass   |
-| pagerank_1000.txt   | 1,000    | 2,000   | 0.85    | 1.000000     | 17         | true      | 10.394 ms  | Pass   |
-| pagerank_10000.txt  | 10,000   | 20,000  | 0.85    | 1.000000     | 17         | true      | 17.292 ms  | Pass   |
-| pagerank_50000.txt  | 50,000   | 100,000 | 0.85    | 1.000000     | 17         | true      | 86.107 ms  | Pass   |
+| pagerank_10.txt     | 10       | 20      | 0.85    | 1.000000     | 15         | True      | 0 ms       | Pass   |
+| pagerank_100.txt    | 100      | 200     | 0.85    | 1.000000     | 15         | True      | 0 ms       | Pass   |
+| pagerank_1000.txt   | 1,000    | 2,000   | 0.85    | 1.000000     | 17         | True      | 10.394 ms  | Pass   |
+| pagerank_10000.txt  | 10,000   | 20,000  | 0.85    | 1.000000     | 17         | True      | 17.292 ms  | Pass   |
+| pagerank_50000.txt  | 50,000   | 100,000 | 0.85    | 1.000000     | 17         | True      | 86.107 ms  | Pass   |
 
