@@ -3,9 +3,6 @@
 
 #include <vector>
 
-// Compressed Sparse Row representation of a graph.
-// No "values" array needed since both algorithms here use
-// UNWEIGHTED graphs.
 struct CSRGraph {
     int V;                     // number of vertices
     std::vector<int> row_ptr;  // size V+1
